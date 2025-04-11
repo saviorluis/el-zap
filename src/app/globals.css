@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    /* Colors inspired by Antojitos El Zapopan with Bleu's elegance */
+    --primary: 0 92% 42%; /* Vibrant red from Antojitos */
+    --primary-foreground: 33 22% 95%;
+
+    --secondary: 32 40% 36%; /* Brown from the wooden texture */
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 120 20% 42%; /* Green from the Mexican flag colors */
+    --accent-foreground: 0 0% 98%;
+
+    --muted: 24 20% 92%;
+    --muted-foreground: 0 0% 45%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 85%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 0 92% 42%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
+
+    --primary: 0 92% 42%;
+    --primary-foreground: 33 22% 95%;
+
+    --secondary: 32 40% 36%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 120 20% 42%;
+    --accent-foreground: 0 0% 98%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 0 92% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-eb-garamond);
+  }
+}
+
+/* Add some custom utility classes */
+@layer utilities {
+  .text-el-zapopan {
+    font-family: var(--font-eb-garamond);
+    color: hsl(var(--primary));
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .wooden-bg {
+    background-color: #2e1f14; /* Rich brown color to replace the wood texture */
+    position: relative;
+  }
+
+  .wooden-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjusted opacity */
+    z-index: 1;
+  }
+
+  .wooden-bg > * {
+    position: relative;
+    z-index: 2;
+  }
+}
