@@ -22,7 +22,7 @@ export default function MenuPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-primary">Meats</h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
             <div className="bg-gray-50 p-4 rounded-lg text-center">
               <h3 className="text-xl font-semibold">ASADA-STEAK</h3>
             </div>
@@ -69,17 +69,17 @@ export default function MenuPage() {
       {/* Menu Items */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-16">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16 mb-16">
             {/* Classic Tacos */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Classic Tacos</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Classic Tacos</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/1811861645.jpeg"
                       alt="Classic Tacos"
@@ -93,7 +93,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     4 Corn tortilla filled with meat, topped with cilantro and onions
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$12.80</p>
+                  <p className="text-2xl font-semibold text-primary">$12</p>
                 </div>
               </div>
             </div>
@@ -101,13 +101,13 @@ export default function MenuPage() {
             {/* Quesabirria Tacos */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Quesabirria Tacos</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Quesabirria Tacos</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
                       alt="Quesabirria Tacos"
@@ -124,7 +124,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     4 Cooked beef folded into a tortilla with melted cheese and served with a side of broth for dipping
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$15.00</p>
+                  <p className="text-2xl font-semibold text-primary">$15</p>
                 </div>
               </div>
             </div>
@@ -132,13 +132,13 @@ export default function MenuPage() {
             {/* Original Burrito */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Original Burrito</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Original Burrito</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/488232245.jpeg"
                       alt="Original Burrito"
@@ -152,7 +152,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Flour tortilla wrapped, Inside comes with the meat, lettuce, tomato, beans and rice
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$12.81</p>
+                  <p className="text-2xl font-semibold text-primary">$12</p>
                 </div>
               </div>
             </div>
@@ -160,13 +160,13 @@ export default function MenuPage() {
             {/* Sopes */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Sopes</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Sopes</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/2951261103.jpeg"
                       alt="Sopes"
@@ -180,7 +180,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     3 Fried masa base with beans and the meat. Topped with lettuce, sour cream and cheese
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$13.88</p>
+                  <p className="text-2xl font-semibold text-primary">$13</p>
                 </div>
               </div>
             </div>
@@ -188,13 +188,13 @@ export default function MenuPage() {
             {/* Torta */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Torta</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Torta</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/2645397825.webp"
                       alt="Torta"
@@ -208,7 +208,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Bread spread with butter, topped with beans, creamy avocado, peppers, lettuce and tomato and piled with meat and cheese
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$12.81</p>
+                  <p className="text-2xl font-semibold text-primary">$12</p>
                 </div>
               </div>
             </div>
@@ -216,13 +216,13 @@ export default function MenuPage() {
             {/* Quesadilla */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Quesadilla</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Quesadilla</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/2858210112.jpeg"
                       alt="Quesadilla"
@@ -236,24 +236,24 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Flour Tortilla, filled with mozzarella cheese, meat, lettuce and tomato
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$13.88</p>
+                  <p className="text-2xl font-semibold text-primary">$13</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Additional Menu Items */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-16">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16 mb-16">
             {/* Birria */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Birria</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Birria</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
                       alt="Birria"
@@ -267,35 +267,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Tender beef slow-cooked in a flavorful broth with dried chiles and spices, served with tortillas on the side
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$16.50</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Pizza */}
-            <div>
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Mexican Pizza</h2>
-                <div className="h-px bg-gray-300 flex-grow ml-4" />
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-                <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
-                    <Image
-                      src="https://ext.same-assets.com/3198230616/2858210112.jpeg"
-                      alt="Mexican Pizza"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-
-                <div className="md:col-span-7">
-                  <p className="text-gray-700 mb-4">
-                    Large flatbread topped with refried beans, your choice of meat, melted cheese, and fresh toppings including jalapeños, tomatoes, and cilantro
-                  </p>
-                  <p className="text-2xl font-semibold text-primary">$28.82</p>
+                  <p className="text-2xl font-semibold text-primary">$16</p>
                 </div>
               </div>
             </div>
@@ -303,13 +275,13 @@ export default function MenuPage() {
             {/* Pizza Birria */}
             <div>
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">Pizza Birria</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Pizza Birria</h2>
                 <div className="h-px bg-gray-300 flex-grow ml-4" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
                 <div className="md:col-span-5">
-                  <div className="relative h-64 rounded-lg overflow-hidden">
+                  <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                     <Image
                       src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
                       alt="Pizza Birria"
@@ -326,7 +298,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Our signature fusion dish! A large pizza crust topped with slow-cooked birria beef, melted cheese, and served with a side of flavorful consommé for dipping
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$28.82</p>
+                  <p className="text-2xl font-semibold text-primary">$28</p>
                 </div>
               </div>
             </div>
@@ -335,13 +307,13 @@ export default function MenuPage() {
           {/* Seasonal Section */}
           <div className="bg-white p-8 rounded-lg mb-16">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-bold text-gray-900">Menudo (Seasonal)</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Menudo (Seasonal)</h2>
               <div className="h-px bg-gray-300 flex-grow ml-4" />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
               <div className="md:col-span-5">
-                <div className="relative h-64 rounded-lg overflow-hidden">
+                <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                   <Image
                     src="https://ext.same-assets.com/3198230616/1497462679.jpeg"
                     alt="Menudo"
@@ -355,7 +327,7 @@ export default function MenuPage() {
                 <p className="text-gray-700 mb-4">
                   Cow's stomach in broth with a red chili pepper base. Hominy, lime, onions, and oregano are used to season the broth
                 </p>
-                <p className="text-2xl font-semibold text-primary">$16.50</p>
+                <p className="text-2xl font-semibold text-primary">$16</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <header className="relative">
       {/* Top Bar */}
@@ -35,20 +38,20 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Reservation Button (from Bleu's design) */}
-          <div>
-            <Link
-              href="/contact"
-              className="inline-block border border-white text-white hover:bg-white hover:text-black transition-colors px-6 py-3 uppercase tracking-wide text-sm"
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="border border-white text-white hover:bg-white hover:text-black transition-colors px-4 py-2 rounded"
             >
-              Reservations
-            </Link>
+              {mobileMenuOpen ? 'Close' : 'Menu'}
+            </button>
           </div>
         </div>
 
-        {/* Navigation */}
-        <nav className="container mx-auto pb-4">
-          <ul className="flex flex-wrap justify-center space-x-2 md:space-x-8">
+        {/* Navigation - Desktop */}
+        <nav className="hidden md:block container mx-auto pb-4">
+          <ul className="flex flex-wrap justify-center space-x-8">
             <li>
               <Link href="/menu" className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-2 py-1">
                 Menu
@@ -76,6 +79,59 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+
+        {/* Navigation - Mobile */}
+        {mobileMenuOpen && (
+          <nav className="md:hidden container mx-auto pb-4">
+            <ul className="flex flex-col items-center space-y-4">
+              <li>
+                <Link 
+                  href="/menu" 
+                  className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-4 py-2 block bg-black/20 w-full text-center rounded"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Menu
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/about" 
+                  className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-4 py-2 block bg-black/20 w-full text-center rounded"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Our Story
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/catering" 
+                  className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-4 py-2 block bg-black/20 w-full text-center rounded"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Catering
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/contact" 
+                  className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-4 py-2 block bg-black/20 w-full text-center rounded"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="/order" 
+                  className="text-white hover:text-primary-foreground transition-colors uppercase tracking-wide text-lg px-4 py-2 block bg-black/20 w-full text-center rounded"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Order Online
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        )}
       </div>
     </header>
   );
