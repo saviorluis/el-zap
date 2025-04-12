@@ -93,7 +93,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     4 Corn tortilla filled with meat, topped with cilantro and onions
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$8.99</p>
+                  <p className="text-2xl font-semibold text-primary">$12.80</p>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     4 Cooked beef folded into a tortilla with melted cheese and served with a side of broth for dipping
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$12.99</p>
+                  <p className="text-2xl font-semibold text-primary">$15.00</p>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Flour tortilla wrapped, Inside comes with the meat, lettuce, tomato, beans and rice
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$9.99</p>
+                  <p className="text-2xl font-semibold text-primary">$12.81</p>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     3 Fried masa base with beans and the meat. Topped with lettuce, sour cream and cheese
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$10.99</p>
+                  <p className="text-2xl font-semibold text-primary">$13.88</p>
                 </div>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Bread spread with butter, topped with beans, creamy avocado, peppers, lettuce and tomato and piled with meat and cheese
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$11.99</p>
+                  <p className="text-2xl font-semibold text-primary">$12.81</p>
                 </div>
               </div>
             </div>
@@ -236,7 +236,97 @@ export default function MenuPage() {
                   <p className="text-gray-700 mb-4">
                     Flour Tortilla, filled with mozzarella cheese, meat, lettuce and tomato
                   </p>
-                  <p className="text-2xl font-semibold text-primary">$12.99</p>
+                  <p className="text-2xl font-semibold text-primary">$13.88</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Menu Items */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-16">
+            {/* Birria */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-3xl font-bold text-gray-900">Birria</h2>
+                <div className="h-px bg-gray-300 flex-grow ml-4" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div className="md:col-span-5">
+                  <div className="relative h-64 rounded-lg overflow-hidden">
+                    <Image
+                      src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
+                      alt="Birria"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div className="md:col-span-7">
+                  <p className="text-gray-700 mb-4">
+                    Tender beef slow-cooked in a flavorful broth with dried chiles and spices, served with tortillas on the side
+                  </p>
+                  <p className="text-2xl font-semibold text-primary">$16.50</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Pizza */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-3xl font-bold text-gray-900">Mexican Pizza</h2>
+                <div className="h-px bg-gray-300 flex-grow ml-4" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div className="md:col-span-5">
+                  <div className="relative h-64 rounded-lg overflow-hidden">
+                    <Image
+                      src="https://ext.same-assets.com/3198230616/2858210112.jpeg"
+                      alt="Mexican Pizza"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div className="md:col-span-7">
+                  <p className="text-gray-700 mb-4">
+                    Large flatbread topped with refried beans, your choice of meat, melted cheese, and fresh toppings including jalapeños, tomatoes, and cilantro
+                  </p>
+                  <p className="text-2xl font-semibold text-primary">$28.82</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Pizza Birria */}
+            <div>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-3xl font-bold text-gray-900">Pizza Birria</h2>
+                <div className="h-px bg-gray-300 flex-grow ml-4" />
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div className="md:col-span-5">
+                  <div className="relative h-64 rounded-lg overflow-hidden">
+                    <Image
+                      src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
+                      alt="Pizza Birria"
+                      fill
+                      className="object-cover"
+                    />
+                    <div className="absolute top-4 right-4 bg-primary text-white py-1 px-3 rounded-full text-sm">
+                      New
+                    </div>
+                  </div>
+                </div>
+
+                <div className="md:col-span-7">
+                  <p className="text-gray-700 mb-4">
+                    Our signature fusion dish! A large pizza crust topped with slow-cooked birria beef, melted cheese, and served with a side of flavorful consommé for dipping
+                  </p>
+                  <p className="text-2xl font-semibold text-primary">$28.82</p>
                 </div>
               </div>
             </div>
@@ -265,7 +355,7 @@ export default function MenuPage() {
                 <p className="text-gray-700 mb-4">
                   Cow's stomach in broth with a red chili pepper base. Hominy, lime, onions, and oregano are used to season the broth
                 </p>
-                <p className="text-2xl font-semibold text-primary">$14.99</p>
+                <p className="text-2xl font-semibold text-primary">$16.50</p>
               </div>
             </div>
           </div>

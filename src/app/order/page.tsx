@@ -94,16 +94,19 @@ export default function OrderPage() {
               <div className="relative h-48">
                 <Image
                   src="https://ext.same-assets.com/3198230616/1165101642.jpeg"
-                  alt="Quesabirria Tacos"
+                  alt="Pizza Birria"
                   fill
                   className="object-cover"
                 />
+                <div className="absolute top-4 right-4 bg-primary text-white py-1 px-3 rounded-full text-sm">
+                  New
+                </div>
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-bold mb-2">Quesabirria Tacos</h3>
-                <p className="text-primary font-semibold mb-2">$12.99</p>
+                <h3 className="text-xl font-bold mb-2">Pizza Birria</h3>
+                <p className="text-primary font-semibold mb-2">$28.82</p>
                 <p className="text-gray-700 text-sm mb-4">
-                  4 Cooked beef folded into a tortilla with melted cheese and served with a side of broth for dipping
+                  Our signature fusion dish! Pizza crust topped with birria beef, melted cheese, and served with consommé
                 </p>
               </div>
             </div>
@@ -119,7 +122,7 @@ export default function OrderPage() {
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Classic Tacos</h3>
-                <p className="text-primary font-semibold mb-2">$8.99</p>
+                <p className="text-primary font-semibold mb-2">$12.80</p>
                 <p className="text-gray-700 text-sm mb-4">
                   4 Corn tortilla filled with meat, topped with cilantro and onions
                 </p>
@@ -137,7 +140,7 @@ export default function OrderPage() {
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Original Burrito</h3>
-                <p className="text-primary font-semibold mb-2">$9.99</p>
+                <p className="text-primary font-semibold mb-2">$12.81</p>
                 <p className="text-gray-700 text-sm mb-4">
                   Flour tortilla wrapped, Inside comes with the meat, lettuce, tomato, beans and rice
                 </p>
@@ -155,7 +158,7 @@ export default function OrderPage() {
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Quesadilla</h3>
-                <p className="text-primary font-semibold mb-2">$12.99</p>
+                <p className="text-primary font-semibold mb-2">$13.88</p>
                 <p className="text-gray-700 text-sm mb-4">
                   Flour Tortilla, filled with mozzarella cheese, meat, lettuce and tomato
                 </p>
