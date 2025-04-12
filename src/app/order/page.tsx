@@ -36,9 +36,7 @@ export default function OrderPage() {
                 Order online and pick up your food at our restaurant. Skip the line and have your food ready when you arrive.
               </p>
               <Link
-                href="https://direct.ordering.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="bg-primary text-white px-6 py-3 rounded-sm hover:bg-primary/90 transition-colors inline-block"
               >
                 Order for Pickup
@@ -59,14 +57,9 @@ export default function OrderPage() {
               <p className="text-gray-700 mb-6">
                 Order through UberEats for delivery to your doorstep. Track your order in real-time.
               </p>
-              <Link
-                href="https://www.ubereats.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black text-white px-6 py-3 rounded-sm hover:bg-gray-800 transition-colors inline-block"
-              >
-                Order on UberEats
-              </Link>
+              <div className="bg-black text-white px-6 py-3 rounded-sm inline-block cursor-not-allowed opacity-75">
+                Coming Soon
+              </div>
             </div>
 
             {/* DoorDash */}
@@ -83,14 +76,9 @@ export default function OrderPage() {
               <p className="text-gray-700 mb-6">
                 Order through DoorDash for fast delivery. Get special promotions and deals.
               </p>
-              <Link
-                href="https://www.doordash.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#ff3008] text-white px-6 py-3 rounded-sm hover:bg-[#e52b07] transition-colors inline-block"
-              >
-                Order on DoorDash
-              </Link>
+              <div className="bg-[#ff3008] text-white px-6 py-3 rounded-sm inline-block cursor-not-allowed opacity-75">
+                Coming Soon
+              </div>
             </div>
           </div>
         </div>
@@ -167,7 +155,7 @@ export default function OrderPage() {
               </div>
               <div className="p-4">
                 <h3 className="text-xl font-bold mb-2">Quesadilla</h3>
-                <p className="text-primary font-semibold mb-2">$8.99</p>
+                <p className="text-primary font-semibold mb-2">$12.99</p>
                 <p className="text-gray-700 text-sm mb-4">
                   Flour Tortilla, filled with mozzarella cheese, meat, lettuce and tomato
                 </p>
