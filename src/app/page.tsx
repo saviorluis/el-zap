@@ -192,47 +192,75 @@ export default function Home() {
             Choose Your Favorite Meat
           </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 justify-items-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 justify-items-center">
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">A</span>
               </div>
-              <p className="font-semibold">ASADA-STEAK</p>
+              <p className="font-semibold">ASADA-STEAK <span className="text-primary">+$2</span></p>
             </div>
 
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">P</span>
               </div>
-              <p className="font-semibold">POLLO-CHICKEN</p>
+              <p className="font-semibold">POLLO-CHICKEN <span className="text-primary">+$2</span></p>
             </div>
 
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">P</span>
               </div>
-              <p className="font-semibold">PASTOR-MARINATED PORK</p>
+              <p className="font-semibold">PASTOR-MARINATED PORK <span className="text-primary">+$2</span></p>
             </div>
 
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">L</span>
               </div>
-              <p className="font-semibold">LENGUA-COW TONGUE +$1</p>
+              <p className="font-semibold">LENGUA-COW TONGUE <span className="text-primary">+$2</span></p>
             </div>
 
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">C</span>
               </div>
-              <p className="font-semibold">CHORIZO-PORK SAUSAGE</p>
+              <p className="font-semibold">CHORIZO-PORK SAUSAGE <span className="text-primary">+$2</span></p>
             </div>
 
             <div className="text-center p-4">
               <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">T</span>
               </div>
-              <p className="font-semibold">TRIPA-GUT +$1</p>
+              <p className="font-semibold">TRIPA-GUT <span className="text-primary">+$2</span></p>
+            </div>
+
+            <div className="text-center p-4">
+              <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">S</span>
+              </div>
+              <p className="font-semibold">SUADERO <span className="text-primary">+$2</span></p>
+            </div>
+
+            <div className="text-center p-4">
+              <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">C</span>
+              </div>
+              <p className="font-semibold">CACHETE <span className="text-primary">+$2</span></p>
+            </div>
+
+            <div className="text-center p-4">
+              <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">B</span>
+              </div>
+              <p className="font-semibold">BUCHE <span className="text-primary">+$2</span></p>
+            </div>
+
+            <div className="text-center p-4">
+              <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">C</span>
+              </div>
+              <p className="font-semibold">CHICHARRON <span className="text-primary">+$2</span></p>
             </div>
           </div>
         </div>
