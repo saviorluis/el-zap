@@ -6,7 +6,7 @@ export default function Header() {
     <header className="relative">
       {/* Top Bar */}
       <div className="bg-black text-white py-2 px-4 text-center text-sm">
-        <p>4250 Patterson Ave, Winston-Salem, NC 27105  |  (336)-254-7367</p>
+        <p>4250 Patterson Ave, Winston-Salem, NC 27105  |  336-287-5338</p>
       </div>
 
       {/* Main Header with wooden background */}

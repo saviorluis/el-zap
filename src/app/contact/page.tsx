@@ -47,7 +47,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-700">(336)-254-7367</p>
+                    <p className="text-gray-700">336-287-5338</p>
                   </div>
                 </div>
 
@@ -185,7 +185,7 @@ export default function ContactPage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">Make a Reservation</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
             For parties of 6 or more, we recommend making a reservation to ensure we can accommodate your group.
-            You can call us directly at (336)-254-7367 or fill out the form below.
+            You can call us directly at 336-287-5338 or fill out the form below.
           </p>
 
           <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">

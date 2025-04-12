@@ -11,7 +11,7 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <p className="mb-2">4250 Patterson Ave</p>
             <p className="mb-2">Winston-Salem, NC 27105</p>
-            <p className="mb-4">(336)-254-7367</p>
+            <p className="mb-4">336-287-5338</p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="https://www.instagram.com/taqueria_zapopan/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 <Instagram size={24} />

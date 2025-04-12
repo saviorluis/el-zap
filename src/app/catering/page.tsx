@@ -237,7 +237,7 @@ export default function CateringPage() {
           </h2>
 
           <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-            <p className="text-2xl font-semibold text-center mb-8">(336)-254-7367</p>
+            <p className="text-2xl font-semibold text-center mb-8">336-287-5338</p>
 
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -257,7 +257,7 @@ export default function OrderPage() {
             <h3 className="text-xl font-bold mb-4 text-center">Questions about your order?</h3>
             <p className="text-center text-gray-700 mb-6">
               If you have any questions or need assistance with your online order,
-              please don't hesitate to call us at (336)-254-7367.
+              please don't hesitate to call us at 336-287-5338.
             </p>
             <div className="text-center">
               <Link
