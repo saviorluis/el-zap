@@ -24,43 +24,43 @@ export default function MenuPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">ASADA-STEAK <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">ASADA-STEAK</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">POLLO-CHICKEN <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">POLLO-CHICKEN</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">PASTOR-MARINATED PORK <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">PASTOR-MARINATED PORK</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">LENGUA-COW TONGUE <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">LENGUA-COW TONGUE <span className="text-primary">+$1</span></h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">CHORIZO-PORK SAUSAGE <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">CHORIZO-PORK SAUSAGE</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">TRIPA-GUT <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">TRIPA-GUT <span className="text-primary">+$1</span></h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">SUADERO <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">SUADERO</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">CACHETE <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">CACHETE</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">BUCHE <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">BUCHE</h3>
             </div>
 
             <div className="bg-gray-50 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold">CHICHARRON <span className="text-primary">+$2</span></h3>
+              <h3 className="text-xl font-semibold">CHICHARRON</h3>
             </div>
           </div>
         </div>
